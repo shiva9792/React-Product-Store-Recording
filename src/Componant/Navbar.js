@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link, LinK} from "react-router-dom";
+import {Link} from "react-router-dom";
 import logo from '../logo.svg';
 import ButtonContainer from '../Componant/Button';
 import styled from 'styled-components';

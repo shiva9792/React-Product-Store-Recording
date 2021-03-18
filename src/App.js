@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+
 import {Switch,Route} from "react-router-dom";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import react, { Fragment } from 'react';
+import react from 'react';
 import Navbar from "./Componant/Navbar";
 import Cart from "./Componant/Cart";
 import Detailes from "./Componant/Detailes";
@@ -19,7 +19,7 @@ function App() {
          <Switch>      
            <Route exact path="/" component={ProductList}></Route>
            <Route path="/detailes" component={Detailes}></Route>
-           <Route path="/cart" component={Cart}></Route> 
+           <Route path="/cart" component={Cart}></Route>  
            <Route component={Defaults}></Route>
          </Switch>  
          <Modal></Modal>

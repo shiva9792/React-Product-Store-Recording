@@ -126,7 +126,7 @@ const ProductContext=React.createContext();
         let tempProduct= [...this.state.products];
         let tempCart=[...this.state.cart];
 
-        tempCart=tempCart.filter(item=>item.id!=id);
+        tempCart=tempCart.filter(item=>item.id!==id);
 
         const index=tempProduct.indexOf(this.getItem(id));
          let removeProduct=tempProduct[index];

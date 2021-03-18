@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import reactDom from 'react-dom';
+
 import Product from './Product';
 import Title from './Title';
 import { ProductConsumer } from '../Context';
